@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    display:inline-table;
+    float:left;
+    width: 33%; 
+    padding-left: 50px;
+    height: 500px;  
+    margin-bottom:40px;
+    padding-left: 303%;
+     
+  }
+  #user_name{
+    width: 20%;
+    height: 30%;
+    display: inline;
+    clear: left;
+    
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
